@@ -1,2 +1,3 @@
 # JavaScript
- Curso
+ 
+ Estou a aprender JavaScript
