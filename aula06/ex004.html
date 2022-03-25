@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+
+            margin: 50px;
+            padding: 20px;
+            display: flexbox;
+        }
+        body {
+            font: 25pt Arial;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>  
+    
+    <!-- 
+=========================================================================================================================================================================
+
+                TAGS html
+
+                <strong> Tornar o texto NEGRITO </strong>
+
+
+
+=========================================================================================================================================================================-->
+    
+
+
+
+
+    <script>
+
+        /*
+=========================================================================================================================================================================
+
+                        docuemnt.write  => Escreve na tela 
+        
+                        Podemos adicionar TAGS dentro do javaScript
+
+
+
+        
+        
+=========================================================================================================================================================================
+                                                        
+
+                                                        Formatação dos números
+
+
+
+
+                                    > var n1 = 12.5
+                                    undefined
+                                    > n1
+                                    12.5
+                                
+
+                                    Uncaught SyntaxError: Unexpected identifier
+                                    > n1.toFixed(3)
+                                    '12.500'
+
+                                    Uncaught SyntaxError: Unexpected string
+                                    > n1.toFixed(2).replace('.',  ',')
+                                    '12,50'
+                                    >
+
+
+                                                            > n1.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'})
+                                                            '12,50 €'
+                                                            > n1.toLocaleString('pt-PT', {style: 'currency', currency: 'BRL'})
+                                                            '12,50 R$'
+                                                            > n1.toLocaleString('pt-PT', {style: 'currency', currency: 'USD'})
+                                                            '12,50 US$'
+                                                            > n1 = 720
+                                                            720
+                                                            > n1.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'}).replace('.',  ',')
+                                                            '720,00 €'
+                                                            >
+
+=========================================================================================================================================================================       
+*/
+
+
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`<h1>Olá, ${nome}! Seja muito bem vindo à .. </h1><br>`)
+        document.write(`<h5>Podemos colocar todas as letras em maiúsculas como ${nome.toUpperCase()} e também nos permite adiciona-las em minúsculas como ${nome.toLowerCase()}.</h5>`)
+
+
+
+    </script>
+    
+</body>
+  
